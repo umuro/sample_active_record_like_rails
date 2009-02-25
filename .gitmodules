@@ -1,0 +1,24 @@
+[submodule "vendor/generators/cs_active_scaffold"]
+	path = vendor/generators/cs_active_scaffold
+	url = git://github.com/umuro/cs_active_scaffold.git
+[submodule "vendor/plugins/calendar_date_select"]
+	path = vendor/plugins/calendar_date_select
+	url = git://github.com/timcharper/calendar_date_select.git
+[submodule "vendor/plugins/active_scaffold"]
+	path = vendor/plugins/active_scaffold
+	url = git://github.com/activescaffold/active_scaffold.git
+[submodule "vendor/plugins/to_icon_rails"]
+	path = vendor/plugins/to_icon_rails
+	url = git://github.com/umuro/to_icon_rails.git
+[submodule "vendor/plugins/active_record_base_without_table"]
+	path = vendor/plugins/active_record_base_without_table
+	url = git://github.com/umuro/active_record_base_without_table.git
+[submodule "vendor/plugins/active_record_like.git"]
+	path = vendor/plugins/active_record_like.git
+	url = git://github.com/umuro/active_record_like.git
+[submodule "vendor/plugins/active_record_like"]
+	path = vendor/plugins/active_record_like
+	url = git://github.com/umuro/active_record_like.git
+[submodule "vendor/plugins/uuid"]
+	path = vendor/plugins/uuid
+	url = git://github.com/assaf/uuid.git
