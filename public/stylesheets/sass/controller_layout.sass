@@ -1,0 +1,32 @@
+@import common.sass
+
+//Classes
+.active-scaffold .view
+  :background-color = !content_background
+
+.old_person
+  :color = !critical_color
+
+.validation_error
+  :color green
+
+//Tags
+a
+  :color blue
+  :text-decoration none
+  img
+    :border none
+a:hover
+  :color blue
+  :background-color = !highlight_color
+  :text-decoration underline
+  img
+    :border none
+
+li
+  :margin-left 2em
+
+//Scoped Tags
+#contentcolumn
+  p
+    :margin-top 0.5em

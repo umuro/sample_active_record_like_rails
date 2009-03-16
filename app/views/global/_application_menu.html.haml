@@ -1,0 +1,13 @@
+.title_box
+  .innertube
+    Menu
+.navigation_box
+  .innertube
+    //- icon = image_tag Person.to_icon, :size =>'20x20'
+    //= link_to "#{icon} People", people_path
+    //%br
+    = link_to "Parents", parents_path
+    %br
+    = link_to "Check CSS", :action=>'check_css', :controller=>'info'    
+    %br
+    = link_to "About Rails", '/about_rails.html'        

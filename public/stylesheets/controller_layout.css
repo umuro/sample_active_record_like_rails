@@ -1,0 +1,27 @@
+.active-scaffold .view {
+  background-color: #f0ede3; }
+
+.old_person {
+  color: #ff2c0c; }
+
+.validation_error {
+  color: green; }
+
+a {
+  color: blue;
+  text-decoration: none; }
+  a img {
+    border: none; }
+
+a:hover {
+  color: blue;
+  background-color: #fffac5;
+  text-decoration: underline; }
+  a:hover img {
+    border: none; }
+
+li {
+  margin-left: 2em; }
+
+#contentcolumn p {
+  margin-top: 0.5em; }

@@ -1,0 +1,41 @@
+@import common.sass
+
+#topsection
+  :background black
+  :color = !title_color
+  h1
+    :font-weight bold	
+
+#contentwrapper
+  :float left
+  :width 100%	
+  
+!rightcolumnwidth = 0px
+!leftcolumnwidth = 120px  
+#contentcolumn
+  // Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth
+  :margin-left = !leftcolumnwidth
+  :margin-right = !rightcolumnwidth
+  
+#leftcolumn
+  :float left
+  :width = !leftcolumnwidth 
+  :margin-left -100%
+  :font-size 13px
+  h5
+    :line-height 47px
+
+#rightcolumn
+  :float left
+  :width = !rightcolumnwidth
+  :margin-left = - !rightcolumnwidth
+  
+#footer
+  :clear left
+  :width 100%
+  :background black
+  :color #FFF
+  :text-align center
+  a
+    color: #FFFF80  
+

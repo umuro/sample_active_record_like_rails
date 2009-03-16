@@ -1,0 +1,24 @@
+!!!
+-# Aptana Colorizing for this file is at: 
+-# http://support.aptana.com/asap/browse/ROR-362
+%html
+  = render :partial=>'layouts/html_head'
+  %body.tundra
+    #maincontainer
+      #topsection
+        .innertube
+          = render :partial => 'global/topsection'
+      #contentwrapper
+        #contentcolumn
+          .innertube
+            %p.validation_error= flash[:notice]
+            = yield
+      #leftcolumn
+        %h5 &nbsp;
+        = render :partial => 'global/application_menu'
+    #rightcolumn
+      .innertube
+    #footer
+      .innertube 
+        %p All portions Copyright (c) 2009 Umur Ozkul
+	  

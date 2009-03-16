@@ -1,0 +1,5 @@
+FIND CONDITIONS: --- "\"parents\".parent_id = 'Parent/68604930-e94a-012b-8164-0019b95e07f3'"
+FIND CONDITIONS: --- parents.id = 'Parent/68604930-e94a-012b-8164-0019b95e07f3'
+FIND CONDITIONS: --- "\"properties\".parent_id = 'Parent/68604930-e94a-012b-8164-0019b95e07f3'"
+FIND CONDITIONS: --- properties.parent_id = 'Parent/68604930-e94a-012b-8164-0019b95e07f3'
+FIND CONDITIONS: --- (LOWER(parents."id") LIKE '%parent_2%' OR LOWER(parents."name") LIKE '%parent_2%' OR LOWER(parents."parent_id") LIKE '%parent_2%')

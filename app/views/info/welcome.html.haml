@@ -1,0 +1,17 @@
+// http://haml.hamptoncatlin.com/docs/
+
+%h1 Welcome to the Sample ActiveRecordLike!
+%p Using ActiveRecordLike, you can map anything to behave like active record.
+%p LDAP, XML, memcache and even C# libraries...
+%p In this demonstration, Rails.cache is mapped to ActiveRecordLike.
+%p ActiveRecordLike delegates storage responsibility through an adapter.
+%p In this case, the adapter is CacheAdapter.
+%p ActiveRecordLike contains unit tests ready for inheritance.
+%p You can simply inherit the unit tests for your adapter and be sure that it will working as required. This way you don't have to worry too much on how to develop a conforming adapter.
+%p See the CacheAdapter and CachedFriends in source code to see how it is done.
+%p No wonder, there are no parents in the cache yet. You can create some parents using:
+%li rake db:populate
+%p
+  Now proceed to 
+  = link_to "the parents", parents_path
+  stored in the Rails.cache.

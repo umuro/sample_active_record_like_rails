@@ -1,0 +1,35 @@
+#topsection {
+  background: black;
+  color: #997777; }
+  #topsection h1 {
+    font-weight: bold; }
+
+#contentwrapper {
+  float: left;
+  width: 100%; }
+
+#contentcolumn {
+  margin-left: 120px;
+  margin-right: 0px; }
+
+#leftcolumn {
+  float: left;
+  width: 120px;
+  margin-left: -100%;
+  font-size: 13px; }
+  #leftcolumn h5 {
+    line-height: 47px; }
+
+#rightcolumn {
+  float: left;
+  width: 0px;
+  margin-left: 0px; }
+
+#footer {
+  clear: left;
+  width: 100%;
+  background: black;
+  color: #FFF;
+  text-align: center; }
+  #footer a {
+    color: #FFFF80; }
