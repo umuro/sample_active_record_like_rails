@@ -5,7 +5,7 @@
 # ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.2.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -66,11 +66,13 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
 
 #TODO. Fix Cookie overflow
-  config.action_controller.session_store = :memory_store  
-#  config.action_controller.session = {
-#    :session_key => '_sample_active_record_like_rails_session',
-#    :secret => '53dd1c800e790ed46544c6f4e3a28446df737838c4383753ebee9f3052a8c51c9bdec3c25167c92424872ecfcbb0c767ee92cb85247f26eff7659081b666afb7'
-#  }
+#config.action_controller.session_store = :memory_store
+#config.action_controller.session_store = :file_store 
+
+  config.action_controller.session = {
+    :session_key => '_sample_active_record_like_rails_session',
+    :secret => '53dd1c800e790ed46544c6f4e3a28446df737838c4383753ebee9f3052a8c51c9bdec3c25167c92424872ecfcbb0c767ee92cb85247f26eff7659081b666afb7'
+  }
 
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information

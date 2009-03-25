@@ -1,4 +1,4 @@
-namespace :cs do
+namespace :app do
 namespace :db do
   desc "Fill the database with sample data. This requires memcached to be useful at all"
   task :populate => :environment do

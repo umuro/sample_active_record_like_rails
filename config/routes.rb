@@ -1,6 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :properties
-
+  map.resources :properties, :active_scaffold=>true
   map.resources :parents, :active_scaffold=>true
 
   map.root :controller => "info", :action=>'welcome'

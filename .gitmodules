@@ -22,3 +22,6 @@
 [submodule "vendor/plugins/uuid"]
 	path = vendor/plugins/uuid
 	url = git://github.com/assaf/uuid.git
+[submodule "vendor/plugins/render_component"]
+	path = vendor/plugins/render_component
+	url = git://github.com/lackac/render_component.git
