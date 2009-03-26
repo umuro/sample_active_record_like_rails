@@ -20,14 +20,14 @@ Rails::Initializer.run do |config|
   # you must remove the Active Record framework.
   # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
 
-  # Specify gems that this application depends on. 
+  # Specify gems that this application depends on.
   # They can then be installed with "rake gems:install" on new installations.
   # You have to specify the :lib option for libraries, where the Gem name (sqlite3-ruby) differs from the file itself (sqlite3)
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
-  
+
   ##config.gem "facets", :version => '2.5.0' ##DO NOT UNCOMMENT. All kinds of scaffold generators stop working!
 #  config.gem "faker", :version => '0.3.1'
 #  config.gem "populator", :version => '0.2.5'
@@ -36,9 +36,9 @@ Rails::Initializer.run do |config|
   config.gem "thoughtbot-factory_girl", :lib => "factory_girl", :version => '1.2.0', :source=>"http://gems.github.com"
   config.gem "macaddr", :version => '1.0.0' # For ActiveRecordLike"
   config.gem "treetop", :version => '1.2.4' # For ActiveRecordLike"
-  config.gem  'patternmatching',  :version=>'0.2.5' 
+  config.gem  'patternmatching',  :version=>'0.2.5'
   config.gem 'mocha', :version=>'0.9.5'
-# Only load the plugins named here, in the order given. By default, all plugins 
+# Only load the plugins named here, in the order given. By default, all plugins
   # in vendor/plugins are loaded in alphabetical order.
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
@@ -62,12 +62,12 @@ Rails::Initializer.run do |config|
 
   # Your secret key for verifying cookie session data integrity.
   # If you change this key, all old sessions will become invalid!
-  # Make sure the secret is at least 30 characters and all random, 
+  # Make sure the secret is at least 30 characters and all random,
   # no regular words or you'll be exposed to dictionary attacks.
 
 #TODO. Fix Cookie overflow
 #config.action_controller.session_store = :memory_store
-#config.action_controller.session_store = :file_store 
+#config.action_controller.session_store = :file_store
 
   config.action_controller.session = {
     :session_key => '_sample_active_record_like_rails_session',
