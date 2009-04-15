@@ -14,8 +14,9 @@ Any help about this is appreciated <umur.ozkul@gmail.com>
 Install project plugins and gems
 -----------------------------------
 $ cd <ProjectRoot>
-$ sudo rake gems:install
 $ rake cs:plugins:git:install
+$ sudo rake gems:install
+
 (See lib/tasks/plugin_install.rake to see how git modules have been added)
 
 Update later
